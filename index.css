@@ -1,0 +1,127 @@
+
+body {
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+}
+
+header {
+	display: flex;
+	flex-direction: row;
+	background-color: black;
+	color: white;
+	height: 70px;
+	align-items: center;
+	justify-content: flex-start;
+}
+
+h2 {
+	margin: 0 auto;
+}
+
+.grid-container {
+	display: grid;
+	grid-column-gap: 20px;
+	grid-row-gap: 10px;
+	grid-template-columns: 150px 150px 150px 150px;
+	grid-template-rows: 150px 150px 150px;
+	justify-content: center;
+	margin-top: 70px;
+}
+
+.grid-item {
+	background-color: black;
+}
+
+#grid1 {
+	background-image: url("https://brewerydb-images.s3.amazonaws.com/brewery/yvQRBB/upload_aRlDlx-squareLarge.png");
+	background-size: cover;
+}
+
+.info-box {
+	display: flex;
+	position: absolute;
+	color: black;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	background-color: white;
+	border: 2px solid gray;
+	border-radius: 10px;
+}
+
+.beer-image {
+	justify-content: flex-start;
+	background-size: cover;
+	height: 300px;
+	width: 300px;
+	border-radius: 5px 0 0 5px;
+}
+
+.description {
+	display: flex;
+	flex-direction: column;
+	width: 500px;
+}
+
+.section-header {
+	display: flex;
+	justify-content: space-between;
+}
+
+.beer {
+	margin: 10px 15px;
+}
+
+.close-window {
+	height: 30px;
+	width: 30px;
+	padding: 0;
+	margin: 2px 2px;
+	background-image: url("http://icons.iconarchive.com/icons/iconsmind/outline/512/Close-Window-icon.png");
+	background-size: cover;
+	border: none;
+}
+
+.brewery {
+	margin: 0 15px;
+}
+
+.style {
+	margin: 0 15px;
+}
+
+.beer-describe {
+	margin: 15px 10px;
+}
+
+.stats {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+
+}
+
+ul {
+	display: flex;
+	flex-direction: column;
+	list-style: none;
+	background-color: lightblue;
+	width: 60px;
+	padding: 0;
+	margin: 10px;
+	text-align: center;
+	border-radius: 10px;
+	line-height: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
