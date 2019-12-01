@@ -29,17 +29,48 @@ h2 {
 	margin-top: 70px;
 }
 
-.grid-item {
-	background-color: black;
-}
-
 #grid1 {
 	background-image: url("https://brewerydb-images.s3.amazonaws.com/brewery/yvQRBB/upload_aRlDlx-squareLarge.png");
 	background-size: cover;
 }
 
+#grid2 {
+	background-image: url("https://brewerydb-images.s3.amazonaws.com/beer/CmrsY0/upload_I2N60H-large.png");
+	background-size: cover;	
+}
+
+#grid3 {
+	background-image: url("https://brewerydb-images.s3.amazonaws.com/brewery/05irfI/upload_M0JX7m-squareLarge.png");
+	background-size: cover;
+}
+
+#grid4 {
+	background-image: url("https://brewerydb-images.s3.amazonaws.com/brewery/UkEpjL/upload_5fbGS6-squareLarge.png");
+	background-size: cover;
+}
+
+#grid5 {
+	background-image: url("https://brewerydb-images.s3.amazonaws.com/brewery/iSg2uM/upload_iWlrOk-squareLarge.png");
+	background-size: cover;
+}
+
+#grid6 {
+	background-image: url("https://brewerydb-images.s3.amazonaws.com/beer/CCR94D/upload_MvZELT-large.png");
+	background-size: cover;
+}
+
+#grid7 {
+	background-image: url("https://brewerydb-images.s3.amazonaws.com/beer/60MwFz/upload_GziG0k-large.png");
+	background-size: cover;
+}
+
+#grid8 {
+	background-image: url("https://brewerydb-images.s3.amazonaws.com/brewery/yC7IbZ/upload_lavq2h-squareLarge.png");
+	background-size: cover;
+}
+
 .info-box {
-	display: flex;
+	display: none;
 	position: absolute;
 	color: black;
 	left: 50%;
@@ -69,7 +100,7 @@ h2 {
 	justify-content: space-between;
 }
 
-.beer {
+.beer-name {
 	margin: 10px 15px;
 }
 
