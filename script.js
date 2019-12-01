@@ -16,14 +16,6 @@ const abv = document.querySelector('.abv-amount')
 const ibu = document.querySelector('.ibu-amount')
 
 
-
-// fetch(url)
-// 	.then(res => res.json())
-// 	.then(description => {
-// 		console.log(beer)
-// 	})
-
-
 const grid1 = document.querySelector('#grid1')
 grid1.addEventListener('click', addGrid1)
 function addGrid1() {
@@ -127,28 +119,6 @@ function addGrid8() {
 	document.querySelector('.abv-amount').innerHTML = "5.7%"
 	document.querySelector('.ibu-amount').innerHTML = "32"	
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

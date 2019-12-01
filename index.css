@@ -16,7 +16,7 @@ header {
 }
 
 h2 {
-	margin: 0 auto;
+	margin: 20px 0 20px 20px;
 }
 
 .grid-container {
@@ -29,9 +29,14 @@ h2 {
 	margin-top: 70px;
 }
 
+.grid-item {
+	border: 1px solid gray;
+}
+
 #grid1 {
 	background-image: url("https://brewerydb-images.s3.amazonaws.com/brewery/yvQRBB/upload_aRlDlx-squareLarge.png");
 	background-size: cover;
+
 }
 
 #grid2 {
@@ -74,7 +79,7 @@ h2 {
 	position: absolute;
 	color: black;
 	left: 50%;
-	top: 50%;
+	top: 45%;
 	transform: translate(-50%, -50%);
 	background-color: white;
 	border: 2px solid gray;
@@ -123,7 +128,7 @@ h2 {
 }
 
 .beer-describe {
-	margin: 15px 10px;
+	margin: 15px 15px;
 }
 
 .stats {
